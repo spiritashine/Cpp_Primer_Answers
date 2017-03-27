@@ -11,7 +11,7 @@ int main()
 {
 	string s = "this is a string";
 
-	for (char x : s)
+	for (char &x : s)
 	{
 		x = 'X';
 	}
